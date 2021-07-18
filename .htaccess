@@ -1,1 +1,1 @@
-RedirectMatch 301 /* https://www.fjordnet.work/$1
+RedirectMatch 301 /.* https://www.fjordnet.work/$1
