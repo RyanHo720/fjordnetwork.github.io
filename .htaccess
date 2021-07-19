@@ -1,1 +1,5 @@
-RedirectPermanent /* http://www.fjordnet.work/$1
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^fjordnet\.work$ [NC]
+RewriteRule ^(.*)$ http://www.fjordnet.work [R=301,L]
