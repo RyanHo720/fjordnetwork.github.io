@@ -1,2 +1,2 @@
-RewriteEngine On
-RewriteRule ^(.*)$ http://www.fjordnet.work/ [R=301]
+RewriteEngine on 
+RewriteRule ^(.*)$ http://www.fjordnet.work/$1 [R=301,L]
